@@ -15,6 +15,11 @@ return {
           end
           return 'make install_jsregexp'
         end)(),
+        -- Enable autotriggered snippets.
+        enable_autosnippets = true,
+
+        -- Using Tab to trigger visual selection.
+        store_selection_keys = '<Tab>',
         dependencies = {
           -- `friendly-snippets` contains a variety of premade snippets.
           --    See the README about individual language/framework/plugin snippets:
